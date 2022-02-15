@@ -1,0 +1,102 @@
+{
+    //Default
+    "HeaderComment" : {
+        "prefix" : "header-comment",
+        "body" : [
+            "$LINE_COMMENT File Name : $TM_FILENAME",
+            "$LINE_COMMENT File description : ${2:description}",
+            "$LINE_COMMENT Author(s) : ${3:author}",
+            "$LINE_COMMENT Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT License : ${5:license}"
+        ],
+        "description" : "Create a simple header comment",
+    },
+    "HeaderCommentTopBottomBorder" : {
+        "prefix" : "header-comment-top-bottom-border",
+        "body" : [
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT File Name : $TM_FILENAME",
+            "$LINE_COMMENT File description : ${2:description}",
+            "$LINE_COMMENT Author(s) : ${3:author}",
+            "$LINE_COMMENT Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT License : ${5:license}",
+            "$LINE_COMMENT =================================================================================================="
+        ],
+        "description" : "Create a header comment with a simple top and bottom border",
+    },
+    "FancyHeaderComment" : {
+        "prefix" : "fancy-header",
+        "body" : [
+            "$LINE_COMMENT ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗",
+            "$LINE_COMMENT ║    File Name : $TM_FILENAME                                                                               ║",
+            "$LINE_COMMENT ║    File description : ${2:description}                                                                    ║",
+            "$LINE_COMMENT ║    Author(s) : ${3:author}                                                                                ║",
+            "$LINE_COMMENT ║    Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR       ║",
+            "$LINE_COMMENT ║    License : ${5:license}                                                                                 ║",
+            "$LINE_COMMENT ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣",
+            "$LINE_COMMENT ║    Supplementary information : ${6}                                                                       ║",
+            "$LINE_COMMENT ║                                                                                                           ║",
+            "$LINE_COMMENT ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝",
+        ],
+        "description": "⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN'T WORK AUTOMATICALY!!!]"
+    },
+
+    //French traduction
+    //TODO: add more traduction!
+
+    "HeaderCommentFr" : {
+        "prefix" : "header-comment-fr",
+        "body" : [
+            "$LINE_COMMENT Nom du fichier : $TM_FILENAME",
+            "$LINE_COMMENT Description : ${2:description}",
+            "$LINE_COMMENT Auteur(s) : ${3:auteur(s)}",
+            "$LINE_COMMENT Date de création : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT Licence : ${5:licence}",
+            "$LINE_COMMENT",
+            "$LINE_COMMENT Informations complémentaires : ${6:infos}"
+        ],
+        "description" : "Créer un simple commentaires d'en-tête.",
+    },
+    "HeaderCommentTopBottomBorderFr" : {
+        "prefix" : "header-comment-top-bottom-border-fr",
+        "body" : [
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT Nom du fichier : $TM_FILENAME",
+            "$LINE_COMMENT Description : ${2:description}",
+            "$LINE_COMMENT Auteur(s) : ${3:auteur(s)}",
+            "$LINE_COMMENT Date de création : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT Licence : ${5:licence}",
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT Informations complémentaires : ${6:infos}",
+            "$LINE_COMMENT =================================================================================================="
+        ],
+        "description" : "Créer un commentaire d'en-tête avec une bordure en haut et en bas.",
+    },
+    "FancyHeaderCommentFr" : {
+        "prefix" : "fancy-header-fr",
+        "body" : [
+            "$LINE_COMMENT ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗",
+            "$LINE_COMMENT ║    Nom du fichier : $TM_FILENAME                                                                          ║",
+            "$LINE_COMMENT ║    Description : ${2:description}                                                                         ║",
+            "$LINE_COMMENT ║    Auteur(s) : ${3:auteur(s)}                                                                             ║",
+            "$LINE_COMMENT ║    Date de création : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR       ║",
+            "$LINE_COMMENT ║    Licence : ${5:licence}                                                                                 ║",
+            "$LINE_COMMENT ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣",
+            "$LINE_COMMENT ║    Informations complémentaires : ${6:infos}                                                              ║",
+            "$LINE_COMMENT ║                                                                                                           ║",
+            "$LINE_COMMENT ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝",
+        ],
+        "description": "⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN'T WORK AUTOMATICALY!!!]"
+    },
+
+    
+    //Easter egg! NICE! Vive la Stonks Life Inc.
+    "StonksLifeIncTrademark" : {
+        "prefix" : "sli-trademark",
+        "body" : [
+           "$LINE_COMMENT © Stonks Life Inc.™ $CURRENT_YEAR"
+        ],
+        "description" : "Put a Stonks Life Inc. trademark as art comment.",
+    },
+    
+}

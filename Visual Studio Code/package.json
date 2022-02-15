@@ -1,0 +1,20 @@
+{
+    "name": "header-comments",
+    "displayName": "header-comments",
+    "description": "Easy and quick header comments snippets to store information about the code you're writing (such as licences, author name, date of creation, description, etc.)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
