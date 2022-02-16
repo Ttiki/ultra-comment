@@ -137,16 +137,17 @@
     "ComplementaryIfomration_fr": {
         "prefix" : "complementary-information-fr",
         "body" : [
-            "$LINE_COMMENT CONSTANTES - no -",
-            "$LINE_COMMENT ATTRIBUTES - no -",
-            "$LINE_COMMENT CONSTRUCTOR (singleton) - no -",
-            "$LINE_COMMENT ENCAPSULATION METHODS - no -",
-            "$LINE_COMMENT USUAL METHODS - no -",
-            "$LINE_COMMENT SPECIFIC METHODS - no -"
+            "$LINE_COMMENT CONSTANTES - non -",
+            "$LINE_COMMENT ATTRIBUTS - non -",
+            "$LINE_COMMENT CONSTRUCTEUR (singleton) - non -",
+            "$LINE_COMMENT METHODES D'ENCAPSULATION - non -",
+            "$LINE_COMMENT METHODES USUELLES - non -",
+            "$LINE_COMMENT METHODES SPECIFIQUES - non -"
         ],
         "description": "Créer un commentaire pour ajouter une structure et des informations."
     },
 
+    //========================================================================================================================
     
     //Easter egg! NICE! Vive la Stonks Life Inc.
     "StonksLifeIncTrademark" : {
