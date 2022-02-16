@@ -46,7 +46,24 @@ Pour installer cette extension:
 
 ### Features
 Voci une liste des fonctionnalités disponibles pour l'extension Atom:
--
+
+- Le snippet est disponible pour les languages suivants
+  - Java
+  - C
+  - C++
+  - C#
+  - Ruby
+  - Python
+  - HTML
+  - CSS
+  - SCSS
+  - SASS
+  - Javascript
+  - PHP
+  - XML
+  - Yaml
+- Multi-langues (Français, Anglais, etc.)
+- Un snippet bonus qui permet de structuer et d'ajouter des informations complémentaires
 
 
 **Header comments**
