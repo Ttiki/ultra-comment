@@ -64,9 +64,8 @@ To install this extension:
 1. [Download the latest release for your text editor/IDE][RELEASES].
 2. Unzip it inside **<user>/.atom/packages**
 3. Restart Atom
-<!--TODO: check this line after finishing the extension for Atom-->
-<!--4. Check if enabled by going to : **File/Settings/Packages and search for header-comments-->
-4. You're done! Now, just type one template's name and voilà!
+4. Check if enabled by going to : **File/Settings/Packages and search for header-comments
+5. You're done! Now, just type one template's name and voilà!
 
 
 ---

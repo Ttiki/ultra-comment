@@ -1,0 +1,2104 @@
+#Java
+'.source.java':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      // CONSTANTES - no -
+      // ATTRIBUTES - no -
+      // CONSTRUCTOR (singleton) - no -
+      // ENCAPSULATION METHODS - no -
+      // USUAL METHODS - no -
+      // SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#C
+'.source.c':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      // CONSTANTES - no -
+      // ATTRIBUTES - no -
+      // CONSTRUCTOR (singleton) - no -
+      // ENCAPSULATION METHODS - no -
+      // USUAL METHODS - no -
+      // SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#C++
+'.source.cpp':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      // CONSTANTES - no -
+      // ATTRIBUTES - no -
+      // CONSTRUCTOR (singleton) - no -
+      // ENCAPSULATION METHODS - no -
+      // USUAL METHODS - no -
+      // SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#C#
+'.source.cs':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      // CONSTANTES - no -
+      // ATTRIBUTES - no -
+      // CONSTRUCTOR (singleton) - no -
+      // ENCAPSULATION METHODS - no -
+      // USUAL METHODS - no -
+      // SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#HTML
+'.text.html.basic':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      <!--
+        File Name : ${1:class name}
+        File description : ${2:description}
+        Author(s) : ${3:author(s)}
+        Date of creation : ${4:date}
+        License : ${5:license}
+        ======================================
+        Supplementary information : ${6:infos}
+      -->
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      <!--
+        ==================================================================================================
+        File Name : ${1:class name}
+        File description : ${2:description}
+        Author(s) : ${3:author(s)}
+        Date of creation : ${4:date}
+        License : ${5:license}
+        ==================================================================================================
+        Supplementary information : ${6:infos}
+        ==================================================================================================
+      -->
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      <!--
+        ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        ║    File Name : ${1:class name}                                                                            ║
+        ║    File description : ${2:description}                                                                    ║
+        ║    Author(s) : ${3:author(s)}                                                                             ║
+        ║    Date of creation : ${4:date}                                                                           ║
+        ║    License : ${5:license}                                                                                 ║
+        ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        ║    Supplementary information : ${6:infos}                                                                 ║
+        ║                                                                                                           ║
+        ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      -->
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      <!--
+        Classe : ${1:class name}
+        Description : ${2:description}
+        @author(s) : ${3:author(s)}
+        @date : ${4:date}
+        License : ${5:license}
+        ======================================================================================
+        Supplementray information : ${6:infos}
+      -->
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      <!--
+        Nom du fichier : ${1:nom du fichier/class}
+        Description : ${2:description}
+        Auteur(s) : ${3:auteur(s)}
+        Date de création : ${4:date de création}
+        Licence : ${5:licence}
+        ======================================
+        Informations complémentaires : ${6:infos}'
+      -->
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      <!--
+        ==================================================================================================
+        Nom du fichier : ${1:nom du fichier/class}
+        Description : ${2:description}
+        Auteur(s) : ${3:auteur(s)}
+        Date de création : ${4:date de création}
+        Licence : ${5:licence}
+        ==================================================================================================
+        Informations complémentaires : ${6:infos}
+        ==================================================================================================
+      -->
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      <!--
+        ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        ║    Description : ${2:description}                                                                         ║
+        ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        ║    Date de création : ${4:date de création}                                                               ║
+        ║    Licence : ${5:licence}                                                                                 ║
+        ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        ║    Informations complémentaires : ${6:infos}                                                              ║
+        ║                                                                                                           ║
+        ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      -->
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+        <!--
+        Classe : ${1:nom du fichier/class}
+        Description : ${2:description}
+        @author(s) : ${3:auteurs(s)}
+        @date : ${4:date de création}
+        Licence : ${5:licence}
+        ======================================================================================
+        Supplementray information : ${6:infos}
+      -->
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '<!-- © Stonks Life Inc.™ -->',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#XML
+'.text.xml':
+    'HeaderComment' : {
+      'prefix' : 'header-comment',
+      'body' : """
+        <!--
+          File Name : ${1:class name}
+          File description : ${2:description}
+          Author(s) : ${3:author(s)}
+          Date of creation : ${4:date}
+          License : ${5:license}
+          ======================================
+          Supplementary information : ${6:infos}
+        -->
+      """,
+      'description' : 'Create a simple header comment'
+    },
+    'HeaderCommentTopBottomBorder' : {
+      'prefix' : 'header-comment-top-bottom-border',
+      'body' : """
+        <!--
+          ==================================================================================================
+          File Name : ${1:class name}
+          File description : ${2:description}
+          Author(s) : ${3:author(s)}
+          Date of creation : ${4:date}
+          License : ${5:license}
+          ==================================================================================================
+          Supplementary information : ${6:infos}
+          ==================================================================================================
+        -->
+      """,
+      'description' : 'Create a header comment with a simple top and bottom border'
+    },
+    'FancyHeaderComment' : {
+      'prefix' : 'fancy-header',
+      'body' : """
+        <!--
+          ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+          ║    File Name : ${1:class name}                                                                            ║
+          ║    File description : ${2:description}                                                                    ║
+          ║    Author(s) : ${3:author(s)}                                                                             ║
+          ║    Date of creation : ${4:date}                                                                           ║
+          ║    License : ${5:license}                                                                                 ║
+          ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+          ║    Supplementary information : ${6:infos}                                                                 ║
+          ║                                                                                                           ║
+          ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+        -->
+      """,
+      'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+    },
+    'JavaTypeHeaderComment': {
+      'prefix' : 'java-type-header',
+      'body' : """
+        <!--
+          Classe : ${1:class name}
+          Description : ${2:description}
+          @author(s) : ${3:author(s)}
+          @date : ${4:date}
+          License : ${5:license}
+          ======================================================================================
+          Supplementray information : ${6:infos}
+        -->
+      """,
+      'description': 'Create a header comment in the style of \'Java\''
+    },
+
+    #FRENCH traduction
+    #TODO: add more traduction!
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        <!--
+          Nom du fichier : ${1:nom du fichier/class}
+          Description : ${2:description}
+          Auteur(s) : ${3:auteur(s)}
+          Date de création : ${4:date de création}
+          Licence : ${5:licence}
+          ======================================
+          Informations complémentaires : ${6:infos}'
+        -->
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        <!--
+          ==================================================================================================
+          Nom du fichier : ${1:nom du fichier/class}
+          Description : ${2:description}
+          Auteur(s) : ${3:auteur(s)}
+          Date de création : ${4:date de création}
+          Licence : ${5:licence}
+          ==================================================================================================
+          Informations complémentaires : ${6:infos}
+          ==================================================================================================
+        -->
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        <!--
+          ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+          ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+          ║    Description : ${2:description}                                                                         ║
+          ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+          ║    Date de création : ${4:date de création}                                                               ║
+          ║    Licence : ${5:licence}                                                                                 ║
+          ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+          ║    Informations complémentaires : ${6:infos}                                                              ║
+          ║                                                                                                           ║
+          ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+        -->
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+          <!--
+          Classe : ${1:nom du fichier/class}
+          Description : ${2:description}
+          @author(s) : ${3:auteurs(s)}
+          @date : ${4:date de création}
+          Licence : ${5:licence}
+          ======================================================================================
+          Supplementray information : ${6:infos}
+        -->
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '<!-- © Stonks Life Inc.™ -->',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
+
+
+#============================================================================================================
+#CSS
+'.source.css':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      /*
+      * File Name : ${1:class name}
+      * File description : ${2:description}
+      * Author(s) : ${3:author(s)}
+      * Date of creation : ${4:date}
+      * License : ${5:license}
+      *
+      * Supplementary information : ${6:infos}
+      */
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      /*
+      * ==================================================================================================
+      * File Name : ${1:class name}
+      * File description : ${2:description}
+      * Author(s) : ${3:author(s)}
+      * Date of creation : ${4:date}
+      * License : ${5:license}
+      * ==================================================================================================
+      * Supplementary information : ${6:infos}
+      * ==================================================================================================
+      */
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      /*
+      * ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      * ║    File Name : ${1:class name}                                                                            ║
+      * ║    File description : ${2:description}                                                                    ║
+      * ║    Author(s) : ${3:author(s)}                                                                             ║
+      * ║    Date of creation : ${4:date}                                                                           ║
+      * ║    License : ${5:license}                                                                                 ║
+      * ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      * ║    Supplementary information : ${6:infos}                                                                 ║
+      * ║                                                                                                           ║
+      * ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      */
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      /*
+      * Nom du fichier : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * Auteur(s) : ${3:auteur(s)}
+      * Date de création : ${4:date de création}
+      * Licence : ${5:licence}
+      *
+      * Informations complémentaires : ${6:infos}'
+      */
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      /*
+      * ==================================================================================================
+      * Nom du fichier : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * Auteur(s) : ${3:auteur(s)}
+      * Date de création : ${4:date de création}
+      * Licence : ${5:licence}
+      * ==================================================================================================
+      * Informations complémentaires : ${6:infos}
+      * ==================================================================================================
+      */
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      /*
+      * ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      * ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      * ║    Description : ${2:description}                                                                         ║
+      * ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      * ║    Date de création : ${4:date de création}                                                               ║
+      * ║    Licence : ${5:licence}                                                                                 ║
+      * ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      * ║    Informations complémentaires : ${6:infos}                                                              ║
+      * ║                                                                                                           ║
+      * ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      */
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '/* © Stonks Life Inc.™ */',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#Sass
+'.source.sass':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+  #============================================================================================================
+  #SCSS
+  '.source.css.scss':
+    'HeaderComment' : {
+      'prefix' : 'header-comment',
+      'body' : """
+        // File Name : ${1:class name}
+        // File description : ${2:description}
+        // Author(s) : ${3:author(s)}
+        // Date of creation : ${4:date}
+        // License : ${5:license}
+        //
+        // Supplementary information : ${6:infos}
+      """,
+      'description' : 'Create a simple header comment'
+    },
+    'HeaderCommentTopBottomBorder' : {
+      'prefix' : 'header-comment-top-bottom-border',
+      'body' : """
+        // ==================================================================================================
+        // File Name : ${1:class name}
+        // File description : ${2:description}
+        // Author(s) : ${3:author(s)}
+        // Date of creation : ${4:date}
+        // License : ${5:license}
+        // ==================================================================================================
+        // Supplementary information : ${6:infos}
+        // ==================================================================================================
+      """,
+      'description' : 'Create a header comment with a simple top and bottom border'
+    },
+    'FancyHeaderComment' : {
+      'prefix' : 'fancy-header',
+      'body' : """
+        // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        // ║    File Name : ${1:class name}                                                                            ║
+        // ║    File description : ${2:description}                                                                    ║
+        // ║    Author(s) : ${3:author(s)}                                                                             ║
+        // ║    Date of creation : ${4:date}                                                                           ║
+        // ║    License : ${5:license}                                                                                 ║
+        // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        // ║    Supplementary information : ${6:infos}                                                                 ║
+        // ║                                                                                                           ║
+        // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+    },
+    'JavaTypeHeaderComment': {
+      'prefix' : 'java-type-header',
+      'body' : """
+        /*
+        * Classe : ${1:class name}
+        * Description : ${2:description}
+        * @author(s) : ${3:author(s)}
+        * @date : ${4:date}
+        * License : ${5:license}
+        *======================================================================================
+        * Supplementray information : ${6:infos}
+        */
+      """,
+      'description': 'Create a header comment in the style of \'Java\''
+    },
+
+    #FRENCH traduction
+    #TODO: add more traduction!
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        // Nom du fichier : ${1:nom du fichier/class}
+        // Description : ${2:description}
+        // Auteur(s) : ${3:auteur(s)}
+        // Date de création : ${4:date de création}
+        // Licence : ${5:licence}
+        //
+        // Informations complémentaires : ${6:infos}'
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        // ==================================================================================================
+        // Nom du fichier : ${1:nom du fichier/class}
+        // Description : ${2:description}
+        // Auteur(s) : ${3:auteur(s)}
+        // Date de création : ${4:date de création}
+        // Licence : ${5:licence}
+        // ==================================================================================================
+        // Informations complémentaires : ${6:infos}
+        // ==================================================================================================
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        // ║    Description : ${2:description}                                                                         ║
+        // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        // ║    Date de création : ${4:date de création}                                                               ║
+        // ║    Licence : ${5:licence}                                                                                 ║
+        // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        // ║    Informations complémentaires : ${6:infos}                                                              ║
+        // ║                                                                                                           ║
+        // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+        /*
+        * Classe : ${1:nom du fichier/class}
+        * Description : ${2:description}
+        * @author(s) : ${3:auteurs(s)}
+        * @date : ${4:date de création}
+        * Licence : ${5:licence}
+        *======================================================================================
+        * Supplementray information : ${6:infos}
+        */
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '// © Stonks Life Inc.™',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
+
+
+#============================================================================================================
+#Javascript
+'.source.js':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      // CONSTANTES - no -
+      // ATTRIBUTES - no -
+      // CONSTRUCTOR (singleton) - no -
+      // ENCAPSULATION METHODS - no -
+      // USUAL METHODS - no -
+      // SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#PHP
+'.text.html.php':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      //
+      // Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      // ==================================================================================================
+      // File Name : ${1:class name}
+      // File description : ${2:description}
+      // Author(s) : ${3:author(s)}
+      // Date of creation : ${4:date}
+      // License : ${5:license}
+      // ==================================================================================================
+      // Supplementary information : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    File Name : ${1:class name}                                                                            ║
+      // ║    File description : ${2:description}                                                                    ║
+      // ║    Author(s) : ${3:author(s)}                                                                             ║
+      // ║    Date of creation : ${4:date}                                                                           ║
+      // ║    License : ${5:license}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Supplementary information : ${6:infos}                                                                 ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      /*
+      * Classe : ${1:class name}
+      * Description : ${2:description}
+      * @author(s) : ${3:author(s)}
+      * @date : ${4:date}
+      * License : ${5:license}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      // CONSTANTES - no -
+      // ATTRIBUTES - no -
+      // CONSTRUCTOR (singleton) - no -
+      // ENCAPSULATION METHODS - no -
+      // USUAL METHODS - no -
+      // SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#Python
+'.source.python':
+  'HeaderComment' : {
+    'prefix' : 'header-comment',
+    'body' : """
+      # File Name : ${1:class name}
+      # File description : ${2:description}
+      # Author(s) : ${3:author(s)}
+      # Date of creation : ${4:date}
+      # License : ${5:license}
+      #
+      # Supplementary information : ${6:infos}
+    """,
+    'description' : 'Create a simple header comment'
+  },
+  'HeaderCommentTopBottomBorder' : {
+    'prefix' : 'header-comment-top-bottom-border',
+    'body' : """
+      # ==================================================================================================
+      # File Name : ${1:class name}
+      # File description : ${2:description}
+      # Author(s) : ${3:author(s)}
+      # Date of creation : ${4:date}
+      # License : ${5:license}
+      # ==================================================================================================
+      # Supplementary information : ${6:infos}
+      # ==================================================================================================
+    """,
+    'description' : 'Create a header comment with a simple top and bottom border'
+  },
+  'FancyHeaderComment' : {
+    'prefix' : 'fancy-header',
+    'body' : """
+      # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      # ║    File Name : ${1:class name}                                                                            ║
+      # ║    File description : ${2:description}                                                                    ║
+      # ║    Author(s) : ${3:author(s)}                                                                             ║
+      # ║    Date of creation : ${4:date}                                                                           ║
+      # ║    License : ${5:license}                                                                                 ║
+      # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      # ║    Supplementary information : ${6:infos}                                                                 ║
+      # ║                                                                                                           ║
+      # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+  },
+  'JavaTypeHeaderComment': {
+    'prefix' : 'java-type-header',
+    'body' : """
+      # Classe : ${1:class name}
+      # Description : ${2:description}
+      # @author(s) : ${3:author(s)}
+      # @date : ${4:date}
+      # License : ${5:license}
+      #======================================================================================
+      # Supplementray information : ${6:infos}
+    """,
+    'description': 'Create a header comment in the style of \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration': {
+    'prefix' : 'complementary-information',
+    'body' : """
+      # CONSTANTES - no -
+      # ATTRIBUTES - no -
+      # CONSTRUCTOR (singleton) - no -
+      # ENCAPSULATION METHODS - no -
+      # USUAL METHODS - no -
+      # SPECIFIC METHODS - no -
+    """,
+    'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+  },
+
+  #FRENCH traduction
+  #TODO: add more traduction!
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      # Nom du fichier : ${1:nom du fichier/class}
+      # Description : ${2:description}
+      # Auteur(s) : ${3:auteur(s)}
+      # Date de création : ${4:date de création}
+      # Licence : ${5:licence}
+      #
+      # Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      # ==================================================================================================
+      # Nom du fichier : ${1:nom du fichier/class}
+      # Description : ${2:description}
+      # Auteur(s) : ${3:auteur(s)}
+      # Date de création : ${4:date de création}
+      # Licence : ${5:licence}
+      # ==================================================================================================
+      # Informations complémentaires : ${6:infos}
+      # ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      # ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      # ║    Description : ${2:description}                                                                         ║
+      # ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      # ║    Date de création : ${4:date de création}                                                               ║
+      # ║    Licence : ${5:licence}                                                                                 ║
+      # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      # ║    Informations complémentaires : ${6:infos}                                                              ║
+      # ║                                                                                                           ║
+      # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      # Classe : ${1:nom du fichier/class}
+      # Description : ${2:description}
+      # @author(s) : ${3:auteurs(s)}
+      # @date : ${4:date de création}
+      # Licence : ${5:licence}
+      #======================================================================================
+      # Supplementray information : ${6:infos}
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          # CONSTANTES - non -
+          # ATTRIBUTS - non -
+          # CONSTRUCTEUR (singleton) - non -
+          # METHODES D'ENCAPSULATION - non -
+          # METHODES USUELLES - non -
+          # METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '# © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#Ruby
+'.source.ruby':
+    'HeaderComment' : {
+      'prefix' : 'header-comment',
+      'body' : """
+        # File Name : ${1:class name}
+        # File description : ${2:description}
+        # Author(s) : ${3:author(s)}
+        # Date of creation : ${4:date}
+        # License : ${5:license}
+        #
+        # Supplementary information : ${6:infos}
+      """,
+      'description' : 'Create a simple header comment'
+    },
+    'HeaderCommentTopBottomBorder' : {
+      'prefix' : 'header-comment-top-bottom-border',
+      'body' : """
+        # ==================================================================================================
+        # File Name : ${1:class name}
+        # File description : ${2:description}
+        # Author(s) : ${3:author(s)}
+        # Date of creation : ${4:date}
+        # License : ${5:license}
+        # ==================================================================================================
+        # Supplementary information : ${6:infos}
+        # ==================================================================================================
+      """,
+      'description' : 'Create a header comment with a simple top and bottom border'
+    },
+    'FancyHeaderComment' : {
+      'prefix' : 'fancy-header',
+      'body' : """
+        # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        # ║    File Name : ${1:class name}                                                                            ║
+        # ║    File description : ${2:description}                                                                    ║
+        # ║    Author(s) : ${3:author(s)}                                                                             ║
+        # ║    Date of creation : ${4:date}                                                                           ║
+        # ║    License : ${5:license}                                                                                 ║
+        # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        # ║    Supplementary information : ${6:infos}                                                                 ║
+        # ║                                                                                                           ║
+        # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+    },
+    'JavaTypeHeaderComment': {
+      'prefix' : 'java-type-header',
+      'body' : """
+        # Classe : ${1:class name}
+        # Description : ${2:description}
+        # @author(s) : ${3:author(s)}
+        # @date : ${4:date}
+        # License : ${5:license}
+        #======================================================================================
+        # Supplementray information : ${6:infos}
+      """,
+      'description': 'Create a header comment in the style of \'Java\''
+    },
+    #BONUS SNIPPET
+    'ComplementaryIfomration': {
+      'prefix' : 'complementary-information',
+      'body' : """
+        # CONSTANTES - no -
+        # ATTRIBUTES - no -
+        # CONSTRUCTOR (singleton) - no -
+        # ENCAPSULATION METHODS - no -
+        # USUAL METHODS - no -
+        # SPECIFIC METHODS - no -
+      """,
+      'description': 'Add some comments to add information to your code and help structure it to help with reading.'
+    },
+
+    #FRENCH traduction
+    #TODO: add more traduction!
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        #
+        # Informations complémentaires : ${6:infos}'
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        # ==================================================================================================
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        # ==================================================================================================
+        # Informations complémentaires : ${6:infos}
+        # ==================================================================================================
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        # ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        # ║    Description : ${2:description}                                                                         ║
+        # ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        # ║    Date de création : ${4:date de création}                                                               ║
+        # ║    Licence : ${5:licence}                                                                                 ║
+        # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        # ║    Informations complémentaires : ${6:infos}                                                              ║
+        # ║                                                                                                           ║
+        # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+        # Classe : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # @author(s) : ${3:auteurs(s)}
+        # @date : ${4:date de création}
+        # Licence : ${5:licence}
+        #======================================================================================
+        # Supplementray information : ${6:infos}
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+    #BONUS SNIPPET
+    'ComplementaryIfomration_fr': {
+        'prefix' : 'complementary-information-fr',
+        'body' : """
+            # CONSTANTES - non -
+            # ATTRIBUTS - non -
+            # CONSTRUCTEUR (singleton) - non -
+            # METHODES D'ENCAPSULATION - non -
+            # METHODES USUELLES - non -
+            # METHODES SPECIFIQUES - non -'
+        """,
+        'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+    },
+
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '# © Stonks Life Inc.™',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
+
+
+#============================================================================================================
+#Yaml
+'.source.yaml':
+    'HeaderComment' : {
+      'prefix' : 'header-comment',
+      'body' : """
+        # File Name : ${1:class name}
+        # File description : ${2:description}
+        # Author(s) : ${3:author(s)}
+        # Date of creation : ${4:date}
+        # License : ${5:license}
+        #
+        # Supplementary information : ${6:infos}
+      """,
+      'description' : 'Create a simple header comment'
+    },
+    'HeaderCommentTopBottomBorder' : {
+      'prefix' : 'header-comment-top-bottom-border',
+      'body' : """
+        # ==================================================================================================
+        # File Name : ${1:class name}
+        # File description : ${2:description}
+        # Author(s) : ${3:author(s)}
+        # Date of creation : ${4:date}
+        # License : ${5:license}
+        # ==================================================================================================
+        # Supplementary information : ${6:infos}
+        # ==================================================================================================
+      """,
+      'description' : 'Create a header comment with a simple top and bottom border'
+    },
+    'FancyHeaderComment' : {
+      'prefix' : 'fancy-header',
+      'body' : """
+        # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        # ║    File Name : ${1:class name}                                                                            ║
+        # ║    File description : ${2:description}                                                                    ║
+        # ║    Author(s) : ${3:author(s)}                                                                             ║
+        # ║    Date of creation : ${4:date}                                                                           ║
+        # ║    License : ${5:license}                                                                                 ║
+        # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        # ║    Supplementary information : ${6:infos}                                                                 ║
+        # ║                                                                                                           ║
+        # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN\'T WORK AUTOMATICALY!!!]'
+    },
+    'JavaTypeHeaderComment': {
+      'prefix' : 'java-type-header',
+      'body' : """
+        # Classe : ${1:class name}
+        # Description : ${2:description}
+        # @author(s) : ${3:author(s)}
+        # @date : ${4:date}
+        # License : ${5:license}
+        #======================================================================================
+        # Supplementray information : ${6:infos}
+      """,
+      'description': 'Create a header comment in the style of \'Java\''
+    },
+
+    #FRENCH traduction
+    #TODO: add more traduction!
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        #
+        # Informations complémentaires : ${6:infos}'
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        # ==================================================================================================
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        # ==================================================================================================
+        # Informations complémentaires : ${6:infos}
+        # ==================================================================================================
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        # ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        # ║    Description : ${2:description}                                                                         ║
+        # ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        # ║    Date de création : ${4:date de création}                                                               ║
+        # ║    Licence : ${5:licence}                                                                                 ║
+        # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        # ║    Informations complémentaires : ${6:infos}                                                              ║
+        # ║                                                                                                           ║
+        # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+        # Classe : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # @author(s) : ${3:auteurs(s)}
+        # @date : ${4:date de création}
+        # Licence : ${5:licence}
+        #======================================================================================
+        # Supplementray information : ${6:infos}
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '# © Stonks Life Inc.™',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
