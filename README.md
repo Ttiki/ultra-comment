@@ -49,6 +49,24 @@ Here is a list of features from the Vistual Studio Code Header comment extension
 ### Features
 Here is a list of features from the Atom Header comment extension:
 
+- Snippet available for the following languages
+  - Java
+  - C
+  - C++
+  - C#
+  - Ruby
+  - Python
+  - HTML
+  - CSS
+  - SCSS
+  - SASS
+  - Javascript
+  - PHP
+  - XML
+  - Yaml
+- Multi-languages (english, french, etc.)
+- An handy snippet to structure your code (complementary-information, see gif below for a demonstration)
+
 
 **Header comments**
 ![Header comments features in Visual Studio Code][FEATURE_ATOM]
