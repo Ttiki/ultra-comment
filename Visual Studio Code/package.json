@@ -10,11 +10,15 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
+        "snippets": [{
+                "language": "",
+                "path": "./snippets/header-comments_eng.code-snippets"
+            },
             {
                 "language": "",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/header-comments_fr.code-snippets"
             }
         ]
     }
+
 }
