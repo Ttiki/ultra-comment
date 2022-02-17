@@ -1,0 +1,85 @@
+{
+    //Default
+    "HeaderComment" : {
+        "prefix" : "header-comment",
+        "body" : [
+            "$LINE_COMMENT File Name : $TM_FILENAME",
+            "$LINE_COMMENT File description : ${2:description}",
+            "$LINE_COMMENT Author(s) : ${3:author}",
+            "$LINE_COMMENT Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT License : ${5:license}",
+            "$LINE_COMMENT",
+            "$LINE_COMMENT Supplementary information : ${6:infos}"
+        ],
+        "description" : "Create a simple header comment",
+    },
+    "HeaderCommentTopBottomBorder" : {
+        "prefix" : "header-comment-top-bottom-border",
+        "body" : [
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT File Name : $TM_FILENAME",
+            "$LINE_COMMENT File description : ${2:description}",
+            "$LINE_COMMENT Author(s) : ${3:author}",
+            "$LINE_COMMENT Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT License : ${5:license}",
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT Supplementary information : ${6:infos}",
+            "$LINE_COMMENT =================================================================================================="
+        ],
+        "description" : "Create a header comment with a simple top and bottom border",
+    },
+    "FancyHeaderComment" : {
+        "prefix" : "fancy-header",
+        "body" : [
+            "$LINE_COMMENT ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗",
+            "$LINE_COMMENT ║    File Name : $TM_FILENAME                                                                               ║",
+            "$LINE_COMMENT ║    File description : ${2:description}                                                                    ║",
+            "$LINE_COMMENT ║    Author(s) : ${3:author}                                                                                ║",
+            "$LINE_COMMENT ║    Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR       ║",
+            "$LINE_COMMENT ║    License : ${5:license}                                                                                 ║",
+            "$LINE_COMMENT ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣",
+            "$LINE_COMMENT ║    Supplementary information : ${6:infos}                                                                       ║",
+            "$LINE_COMMENT ║                                                                                                           ║",
+            "$LINE_COMMENT ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝",
+        ],
+        "description": "⚠️Create a fancy header comment (with border) [⚠️WARNING!!!! THIS DOESN'T WORK AUTOMATICALY!!!]"
+    },
+    "JavaTypeHeaderComment": {
+        "prefix" : "java-type-header",
+        "body" : [
+            "$BLOCK_COMMENT_START",
+            "* Classe : ${1:class} ",
+            "* @author(s) : ${2:author(s)}",
+            "* @date : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "* License : ${3:license}",
+            "*======================================================================================",
+            "* Supplementray information : ${6:infos}",
+            "$BLOCK_COMMENT_END"
+        ],
+        "description": "Create a header comment in the style of 'Java'"
+    },
+    "ComplementaryIfomration": {
+        "prefix" : "complementary-information",
+        "body" : [
+            "$LINE_COMMENT CONSTANTES - no -",
+            "$LINE_COMMENT ATTRIBUTES - no -",
+            "$LINE_COMMENT CONSTRUCTOR (singleton) - no -",
+            "$LINE_COMMENT ENCAPSULATION METHODS - no -",
+            "$LINE_COMMENT USUAL METHODS - no -",
+            "$LINE_COMMENT SPECIFIC METHODS - no -"
+        ],
+        "description": "Add some comments to add information to your code and help structure it to help with reading."
+    },
+
+    //========================================================================================================================
+    
+    //Easter egg! NICE! Vive la Stonks Life Inc.
+    "StonksLifeIncTrademark" : {
+        "prefix" : "sli-trademark",
+        "body" : [
+           "$LINE_COMMENT © Stonks Life Inc.™ $CURRENT_YEAR"
+        ],
+        "description" : "Put a Stonks Life Inc. trademark as art comment.",
+    },
+    
+}

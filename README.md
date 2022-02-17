@@ -1,15 +1,17 @@
-<!-- [![MIT Licence](https://img.shields.io/github/license/ttiki/creation-commentaires-cours)](https://github.com/Ttiki/creation-commentaires-cours/blob/master/LICENSE.md)
-[![Latest version](https://img.shields.io/github/v/tag/Ttiki/creation-commentaires-cours)](https://github.com/Ttiki/creation-commentaires-cours/releases)
-[![Downloads](https://img.shields.io/github/downloads/Ttiki/creation-commentaires-cours/total)](https://github.com/Ttiki/creation-commentaires-cours/releases)
-[![Open Issue](https://img.shields.io/github/issues-raw/Ttiki/creation-commentaires-cours)](https://github.com/Ttiki/creation-commentaires-cours/issues)
-[![Open PR](https://img.shields.io/github/issues-pr-raw/Ttiki/creation-commentaires-cours)](https://github.com/Ttiki/creation-commentaires-cours/pulls) -->
-
+[![MIT Licence](https://img.shields.io/github/license/ttiki/header-comment)](https://github.com/Ttiki/header-comment/blob/master/LICENSE.md)
+[![Latest version](https://img.shields.io/github/v/tag/Ttiki/header-comment)](https://github.com/Ttiki/header-comment/releases)
+[![Downloads](https://img.shields.io/github/downloads/Ttiki/header-comment/total)](https://github.com/Ttiki/header-comment/releases)
+[![Open Issue](https://img.shields.io/github/issues-raw/Ttiki/header-comment)](https://github.com/Ttiki/header-comment/issues)
+[![Open PR](https://img.shields.io/github/issues-pr-raw/Ttiki/header-comment)](https://github.com/Ttiki/header-comment/pulls)
+[![saythanks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/Ttiki)
+[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=Ttiki)][SPONSOR]
 # Header comments
 
 >Note: This README is also available in:
->- [![French](Res/media/icons/fr.gif) Français](Res/READMEs/README_fr.md)
+>- [![French](Res/media/icons/fr.gif) Français][README_FR]
 
 Add boilerplate code when you start a new file to store informations (such as the name of the file/class, author's name, date of creation, etc.)
+**PLUS, a bonus snippet to structure your code by adding some additional information!**
 
 This extension is available for the following text editor / IDE :
 - [x] Visual Studio Code
@@ -18,17 +20,24 @@ This extension is available for the following text editor / IDE :
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="24px" /> Studio Code
 
 ### Features
-The snippets adapts to the language you are using. (You need to select a language first!)
-<!--TODO: Change this section when the repo is init!-->
-You can chose between multiple templates. You can open a PR to add a new template.
-Also, for dates, Visual Studio Code autocomplete the date when you call the snippet. 
+Here is a list of features from the Vistual Studio Code Header comment extension:
+- Snippets automaticaly adapts to the language you're using
+- Dates automaticaly updates
+- Multiple templates you can use (depending on your need and styles)
+- Multi-languages (english, french, etc.)
+- An handy snippet to structure your code (complementary-information, see gif below for a demonstration)
 
-![Header comments features in Visual Studio Code](Res/media/gif/feature_vscode.gif)
+**Header comments**
+![Header comments features in Visual Studio Code][FEATURE_VSCODE]
+
+
+**Complementray information**
+![Complementary information to structure your code][FEATURE_VSCODE_BONUS]
 
 
 ### Installation
 
-1. To install this extension [download the latest release for your text editor/IDE](https://github.com/Ttiki/header-comments/releases).
+1. To install this extension [download the latest release for your text editor/IDE][RELEASES].
 1. Unzip it inside **<user>/.vscode/extensions**
 2. Restart Visual Studio Code
 3. You're done! Now, just type one template's name and voilà!
@@ -38,17 +47,21 @@ Also, for dates, Visual Studio Code autocomplete the date when you call the snip
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/atom/atom-original.svg" width="24px" />Atom
 
 ### Features
-Sadly, this snippet doesn't change the comment symbol for each language. So you may need to so some tweaking when calling this snippet.
-Also, the date doesn't autocomplete.
-But at least you won't have to write this manually anymore!
+Here is a list of features from the Atom Header comment extension:
 
-![Header comments feature in Atom](Res/media/gif/features_atom.gif)
+
+**Header comments**
+![Header comments features in Visual Studio Code][FEATURE_ATOM]
+
+
+**Complementray information**
+![Complementary information to structure your code][FEATURE_ATOM_BONUS]
 
 
 ### Installation
 
 To install this extension:
-1. [Download the latest release for your text editor/IDE](https://github.com/Ttiki/header-comments/releases).
+1. [Download the latest release for your text editor/IDE][RELEASES].
 2. Unzip it inside **<user>/.atom/packages**
 3. Restart Atom
 <!--TODO: check this line after finishing the extension for Atom-->
@@ -58,16 +71,17 @@ To install this extension:
 
 ---
 
-
-## Release Notes
-
-<!--TODO: Add latest release here when a new release rolls out!-->
-
-### 1.0.0
-
-Ajoute un boiler plate code avec tous les commentaires à mettre (CONSTANTES, ATTRIBUTS, etc.) et ajoute un en-tête avec les informations comme la classe, l'auteur, etc.
-S'adapte au langage utilisé (pour les commentaires).
-
 ## Credits
 - [Flags icon by FamFam](http://www.famfamfam.com)
 - [Badges by Shields.io](https://shields.io/)
+
+
+
+<!--Linnks variables-->
+[README_FR]: Res/READMEs/README_fr.md
+[FEATURE_VSCODE]: Res/media/gif/feature_vscode.gif
+[FEATURE_VSCODE_BONUS]: Res/media/gif/features_ci_vscode.gif
+[FEATURE_ATOM]: Res/media/gif/feature_atom.gif
+[FEATURE_ATOM_BONUS]: Res/media/gif/features_ci_atom.gif
+[RELEASES]: https://github.com/Ttiki/header-comments/releases
+[SPONSOR]: https://github.com/sponsors/Ttiki
