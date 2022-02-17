@@ -1,0 +1,13 @@
+{
+    "name": "header-comment",
+    "main": "./lib/header-comment",
+    "version": "1.0.0",
+    "description": "Adds boilercode plates from template to easely structure your code with information",
+    "keywords": [],
+    "repository": "https://github.com/Ttiki/header-comment",
+    "license": "GPL-3.0 License",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
+}

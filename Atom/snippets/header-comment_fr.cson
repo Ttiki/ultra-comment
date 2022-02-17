@@ -1,0 +1,1120 @@
+#Java
+'.source.java':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#C
+'.source.c':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#C++
+'.source.cpp':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#C#
+'.source.cs':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#HTML
+'.text.html.basic':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      <!--
+        Nom du fichier : ${1:nom du fichier/class}
+        Description : ${2:description}
+        Auteur(s) : ${3:auteur(s)}
+        Date de création : ${4:date de création}
+        Licence : ${5:licence}
+        ======================================
+        Informations complémentaires : ${6:infos}'
+      -->
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      <!--
+        ==================================================================================================
+        Nom du fichier : ${1:nom du fichier/class}
+        Description : ${2:description}
+        Auteur(s) : ${3:auteur(s)}
+        Date de création : ${4:date de création}
+        Licence : ${5:licence}
+        ==================================================================================================
+        Informations complémentaires : ${6:infos}
+        ==================================================================================================
+      -->
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      <!--
+        ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        ║    Description : ${2:description}                                                                         ║
+        ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        ║    Date de création : ${4:date de création}                                                               ║
+        ║    Licence : ${5:licence}                                                                                 ║
+        ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        ║    Informations complémentaires : ${6:infos}                                                              ║
+        ║                                                                                                           ║
+        ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      -->
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+        <!--
+        Classe : ${1:nom du fichier/class}
+        Description : ${2:description}
+        @author(s) : ${3:auteurs(s)}
+        @date : ${4:date de création}
+        Licence : ${5:licence}
+        ======================================================================================
+        Supplementray information : ${6:infos}
+      -->
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '<!-- © Stonks Life Inc.™ -->',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#XML
+'.text.xml':
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        <!--
+          Nom du fichier : ${1:nom du fichier/class}
+          Description : ${2:description}
+          Auteur(s) : ${3:auteur(s)}
+          Date de création : ${4:date de création}
+          Licence : ${5:licence}
+          ======================================
+          Informations complémentaires : ${6:infos}'
+        -->
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        <!--
+          ==================================================================================================
+          Nom du fichier : ${1:nom du fichier/class}
+          Description : ${2:description}
+          Auteur(s) : ${3:auteur(s)}
+          Date de création : ${4:date de création}
+          Licence : ${5:licence}
+          ==================================================================================================
+          Informations complémentaires : ${6:infos}
+          ==================================================================================================
+        -->
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        <!--
+          ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+          ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+          ║    Description : ${2:description}                                                                         ║
+          ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+          ║    Date de création : ${4:date de création}                                                               ║
+          ║    Licence : ${5:licence}                                                                                 ║
+          ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+          ║    Informations complémentaires : ${6:infos}                                                              ║
+          ║                                                                                                           ║
+          ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+        -->
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+          <!--
+          Classe : ${1:nom du fichier/class}
+          Description : ${2:description}
+          @author(s) : ${3:auteurs(s)}
+          @date : ${4:date de création}
+          Licence : ${5:licence}
+          ======================================================================================
+          Supplementray information : ${6:infos}
+        -->
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '<!-- © Stonks Life Inc.™ -->',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
+
+
+#============================================================================================================
+#CSS
+'.source.css':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      /*
+      * Nom du fichier : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * Auteur(s) : ${3:auteur(s)}
+      * Date de création : ${4:date de création}
+      * Licence : ${5:licence}
+      *
+      * Informations complémentaires : ${6:infos}'
+      */
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      /*
+      * ==================================================================================================
+      * Nom du fichier : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * Auteur(s) : ${3:auteur(s)}
+      * Date de création : ${4:date de création}
+      * Licence : ${5:licence}
+      * ==================================================================================================
+      * Informations complémentaires : ${6:infos}
+      * ==================================================================================================
+      */
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      /*
+      * ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      * ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      * ║    Description : ${2:description}                                                                         ║
+      * ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      * ║    Date de création : ${4:date de création}                                                               ║
+      * ║    Licence : ${5:licence}                                                                                 ║
+      * ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      * ║    Informations complémentaires : ${6:infos}                                                              ║
+      * ║                                                                                                           ║
+      * ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      */
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '/* © Stonks Life Inc.™ */',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#Sass
+'.source.sass':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+  #============================================================================================================
+  #SCSS
+  '.source.css.scss':
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        // Nom du fichier : ${1:nom du fichier/class}
+        // Description : ${2:description}
+        // Auteur(s) : ${3:auteur(s)}
+        // Date de création : ${4:date de création}
+        // Licence : ${5:licence}
+        //
+        // Informations complémentaires : ${6:infos}'
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        // ==================================================================================================
+        // Nom du fichier : ${1:nom du fichier/class}
+        // Description : ${2:description}
+        // Auteur(s) : ${3:auteur(s)}
+        // Date de création : ${4:date de création}
+        // Licence : ${5:licence}
+        // ==================================================================================================
+        // Informations complémentaires : ${6:infos}
+        // ==================================================================================================
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        // ║    Description : ${2:description}                                                                         ║
+        // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        // ║    Date de création : ${4:date de création}                                                               ║
+        // ║    Licence : ${5:licence}                                                                                 ║
+        // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        // ║    Informations complémentaires : ${6:infos}                                                              ║
+        // ║                                                                                                           ║
+        // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+        /*
+        * Classe : ${1:nom du fichier/class}
+        * Description : ${2:description}
+        * @author(s) : ${3:auteurs(s)}
+        * @date : ${4:date de création}
+        * Licence : ${5:licence}
+        *======================================================================================
+        * Supplementray information : ${6:infos}
+        */
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '// © Stonks Life Inc.™',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
+
+
+#============================================================================================================
+#Javascript
+'.source.js':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#PHP
+'.text.html.php':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      //
+      // Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      // ==================================================================================================
+      // Nom du fichier : ${1:nom du fichier/class}
+      // Description : ${2:description}
+      // Auteur(s) : ${3:auteur(s)}
+      // Date de création : ${4:date de création}
+      // Licence : ${5:licence}
+      // ==================================================================================================
+      // Informations complémentaires : ${6:infos}
+      // ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      // ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      // ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      // ║    Description : ${2:description}                                                                         ║
+      // ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      // ║    Date de création : ${4:date de création}                                                               ║
+      // ║    Licence : ${5:licence}                                                                                 ║
+      // ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      // ║    Informations complémentaires : ${6:infos}                                                              ║
+      // ║                                                                                                           ║
+      // ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      /*
+      * Classe : ${1:nom du fichier/class}
+      * Description : ${2:description}
+      * @author(s) : ${3:auteurs(s)}
+      * @date : ${4:date de création}
+      * Licence : ${5:licence}
+      *======================================================================================
+      * Supplementray information : ${6:infos}
+      */
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          // CONSTANTES - non -
+          // ATTRIBUTS - non -
+          // CONSTRUCTEUR (singleton) - non -
+          // METHODES D'ENCAPSULATION - non -
+          // METHODES USUELLES - non -
+          // METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '// © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#Python
+'.source.python':
+  'HeaderCommentFr' : {
+    'prefix' : 'header-comment-fr',
+    'body' : """
+      # Nom du fichier : ${1:nom du fichier/class}
+      # Description : ${2:description}
+      # Auteur(s) : ${3:auteur(s)}
+      # Date de création : ${4:date de création}
+      # Licence : ${5:licence}
+      #
+      # Informations complémentaires : ${6:infos}'
+    """,
+    'description' : 'Créer un simple commentaires d\'en-tête.'
+  },
+  'HeaderCommentTopBottomBorderFr' : {
+    'prefix' : 'header-comment-top-bottom-border-fr',
+    'body' : """
+      # ==================================================================================================
+      # Nom du fichier : ${1:nom du fichier/class}
+      # Description : ${2:description}
+      # Auteur(s) : ${3:auteur(s)}
+      # Date de création : ${4:date de création}
+      # Licence : ${5:licence}
+      # ==================================================================================================
+      # Informations complémentaires : ${6:infos}
+      # ==================================================================================================
+    """,
+    'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+  },
+  'FancyHeaderCommentFr' : {
+    'prefix' : 'fancy-header-fr',
+    'body' : """
+      # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+      # ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+      # ║    Description : ${2:description}                                                                         ║
+      # ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+      # ║    Date de création : ${4:date de création}                                                               ║
+      # ║    Licence : ${5:licence}                                                                                 ║
+      # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+      # ║    Informations complémentaires : ${6:infos}                                                              ║
+      # ║                                                                                                           ║
+      # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+    """,
+    'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+  },
+  'JavaTypeHeaderComment_fr': {
+    'prefix' : 'java-type-header-fr',
+    'body' : """
+      # Classe : ${1:nom du fichier/class}
+      # Description : ${2:description}
+      # @author(s) : ${3:auteurs(s)}
+      # @date : ${4:date de création}
+      # Licence : ${5:licence}
+      #======================================================================================
+      # Supplementray information : ${6:infos}
+    """,
+    'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+  },
+  #BONUS SNIPPET
+  'ComplementaryIfomration_fr': {
+      'prefix' : 'complementary-information-fr',
+      'body' : """
+          # CONSTANTES - non -
+          # ATTRIBUTS - non -
+          # CONSTRUCTEUR (singleton) - non -
+          # METHODES D'ENCAPSULATION - non -
+          # METHODES USUELLES - non -
+          # METHODES SPECIFIQUES - non -'
+      """,
+      'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+  },
+
+
+  #Easter egg! Nice! Vive la STONKS LIFE INC.
+  'StonksLifeIncTrademark' : {
+    'prefix' : 'sli-trademark',
+    'body' : '# © Stonks Life Inc.™',
+    'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+  },
+
+
+#============================================================================================================
+#Ruby
+'.source.ruby':
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        #
+        # Informations complémentaires : ${6:infos}'
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        # ==================================================================================================
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        # ==================================================================================================
+        # Informations complémentaires : ${6:infos}
+        # ==================================================================================================
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        # ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        # ║    Description : ${2:description}                                                                         ║
+        # ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        # ║    Date de création : ${4:date de création}                                                               ║
+        # ║    Licence : ${5:licence}                                                                                 ║
+        # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        # ║    Informations complémentaires : ${6:infos}                                                              ║
+        # ║                                                                                                           ║
+        # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+        # Classe : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # @author(s) : ${3:auteurs(s)}
+        # @date : ${4:date de création}
+        # Licence : ${5:licence}
+        #======================================================================================
+        # Supplementray information : ${6:infos}
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+    #BONUS SNIPPET
+    'ComplementaryIfomration_fr': {
+        'prefix' : 'complementary-information-fr',
+        'body' : """
+            # CONSTANTES - non -
+            # ATTRIBUTS - non -
+            # CONSTRUCTEUR (singleton) - non -
+            # METHODES D'ENCAPSULATION - non -
+            # METHODES USUELLES - non -
+            # METHODES SPECIFIQUES - non -'
+        """,
+        'description': 'Créer un commentaire pour ajouter une structure et des informations.'
+    },
+
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '# © Stonks Life Inc.™',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
+
+
+#============================================================================================================
+#Yaml
+'.source.yaml':
+    'HeaderCommentFr' : {
+      'prefix' : 'header-comment-fr',
+      'body' : """
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        #
+        # Informations complémentaires : ${6:infos}'
+      """,
+      'description' : 'Créer un simple commentaires d\'en-tête.'
+    },
+    'HeaderCommentTopBottomBorderFr' : {
+      'prefix' : 'header-comment-top-bottom-border-fr',
+      'body' : """
+        # ==================================================================================================
+        # Nom du fichier : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # Auteur(s) : ${3:auteur(s)}
+        # Date de création : ${4:date de création}
+        # Licence : ${5:licence}
+        # ==================================================================================================
+        # Informations complémentaires : ${6:infos}
+        # ==================================================================================================
+      """,
+      'description' : 'Créer un commentaire d\'en-tête avec une bordure en haut et en bas.'
+    },
+    'FancyHeaderCommentFr' : {
+      'prefix' : 'fancy-header-fr',
+      'body' : """
+        # ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+        # ║    Nom du fichier : ${1:nom du fichier/class}                                                             ║
+        # ║    Description : ${2:description}                                                                         ║
+        # ║    Auteur(s) : ${3:auteur(s)}                                                                             ║
+        # ║    Date de création : ${4:date de création}                                                               ║
+        # ║    Licence : ${5:licence}                                                                                 ║
+        # ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣
+        # ║    Informations complémentaires : ${6:infos}                                                              ║
+        # ║                                                                                                           ║
+        # ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+      """,
+      'description': '⚠️Créer un commentaire d\'en-tête avec des bordures [⚠️Attention!!!! CE SNIPPET NE FONCTIONNE PAS SEUL, CERTAINES MODIFICATIONS SERONT A FAIRE!!!]'
+    },
+    'JavaTypeHeaderComment_fr': {
+      'prefix' : 'java-type-header-fr',
+      'body' : """
+        # Classe : ${1:nom du fichier/class}
+        # Description : ${2:description}
+        # @author(s) : ${3:auteurs(s)}
+        # @date : ${4:date de création}
+        # Licence : ${5:licence}
+        #======================================================================================
+        # Supplementray information : ${6:infos}
+      """,
+      'description': 'Créer un commentaire d\'en-tête du style \'Java\''
+    },
+
+
+    #Easter egg! Nice! Vive la STONKS LIFE INC.
+    'StonksLifeIncTrademark' : {
+      'prefix' : 'sli-trademark',
+      'body' : '# © Stonks Life Inc.™',
+      'description' : 'Put a Stonks Life Inc. trademark as art comment.',
+    },
