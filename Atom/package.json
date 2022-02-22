@@ -1,10 +1,10 @@
 {
-    "name": "header-comment",
-    "main": "./lib/header-comment",
+    "name": "ultra-comment",
+    "main": "./lib/ultra-comment",
     "version": "1.0.0",
-    "description": "Adds boilercode plates from template to easely structure your code with information",
+    "description": "Add boilerplate code to display information and structure your code through comments! Chose between defferent templates for the headers! Commenting your code has never been easier.",
     "keywords": [],
-    "repository": "https://github.com/Ttiki/header-comment",
+    "repository": "https://github.com/Ttiki/ultra-comment",
     "license": "GPL-3.0 License",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
