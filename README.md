@@ -15,7 +15,7 @@ Add boilerplate code when you start a new file to store informations (such as th
 
 This extension is available for the following text editor / IDE :
 - [x] Visual Studio Code
-- [x] Atom
+- [] Atom (Newer versions aren't supported for the moment.)
 
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="24px" /> Studio Code
 
@@ -49,6 +49,24 @@ Here is a list of features from the Vistual Studio Code Header comment extension
 ### Features
 Here is a list of features from the Atom Header comment extension:
 
+- Snippet available for the following languages
+  - Java
+  - C
+  - C++
+  - C#
+  - Ruby
+  - Python
+  - HTML
+  - CSS
+  - SCSS
+  - SASS
+  - Javascript
+  - PHP
+  - XML
+  - Yaml
+- Multi-languages (english, french, etc.)
+- An handy snippet to structure your code (complementary-information, see gif below for a demonstration)
+
 
 **Header comments**
 ![Header comments features in Visual Studio Code][FEATURE_ATOM]
@@ -64,9 +82,8 @@ To install this extension:
 1. [Download the latest release for your text editor/IDE][RELEASES].
 2. Unzip it inside **<user>/.atom/packages**
 3. Restart Atom
-<!--TODO: check this line after finishing the extension for Atom-->
-<!--4. Check if enabled by going to : **File/Settings/Packages and search for header-comments-->
-4. You're done! Now, just type one template's name and voilà!
+4. Check if enabled by going to : **File/Settings/Packages and search for header-comments
+5. You're done! Now, just type one template's name and voilà!
 
 
 ---
