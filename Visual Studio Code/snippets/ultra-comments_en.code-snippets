@@ -1,0 +1,134 @@
+{
+    //Default
+    "HeaderComment" : {
+        "prefix" : "ultra-header-simple",
+        "body" : [
+            "$LINE_COMMENT File Name : $TM_FILENAME",
+            "$LINE_COMMENT File description : ${2:description}",
+            "$LINE_COMMENT Author(s) : ${3:author}",
+            "$LINE_COMMENT Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT License : ${5:license}",
+            "$LINE_COMMENT",
+            "$LINE_COMMENT Supplementary information : ${6:infos}"
+        ],
+        "description" : "Create a simple header comment"
+    },
+    "HeaderCommentTopBottomBorder" : {
+        "prefix" : "ultra-header-top-bottom-border",
+        "body" : [
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT File Name : $TM_FILENAME",
+            "$LINE_COMMENT File description : ${2:description}",
+            "$LINE_COMMENT Author(s) : ${3:author}",
+            "$LINE_COMMENT Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT License : ${5:license}",
+            "$LINE_COMMENT ==================================================================================================",
+            "$LINE_COMMENT Supplementary information : ${6:infos}",
+            "$LINE_COMMENT =================================================================================================="
+        ],
+        "description" : "Create a header comment with a simple top and bottom border"
+    },
+    "FancyHeaderComment" : {
+        "prefix" : "ultra-header-fancy",
+        "body" : [
+            "$LINE_COMMENT ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════╗",
+            "$LINE_COMMENT ║    File Name : $TM_FILENAME                                                                               ║",
+            "$LINE_COMMENT ║    File description : ${2:description}                                                                    ║",
+            "$LINE_COMMENT ║    Author(s) : ${3:author}                                                                                ║",
+            "$LINE_COMMENT ║    Date of creation : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR       ║",
+            "$LINE_COMMENT ║    License : ${5:license}                                                                                 ║",
+            "$LINE_COMMENT ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣",
+            "$LINE_COMMENT ║    Supplementary information : ${6:infos}                                                                       ║",
+            "$LINE_COMMENT ║                                                                                                           ║",
+            "$LINE_COMMENT ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝"
+        ],
+        "description": "⚠️Create a fancy header comment (with border) [⚠️WARNING! RIGHT BORDERS MAY NOT BE POSITIONED CORRECTLY! MANUAL TWEAK MAY BE NEEDED!⚠️]"
+    },
+    "JavaTypeHeaderComment": {
+        "prefix" : "ultra-header-java-type",
+        "body" : [
+            "$BLOCK_COMMENT_START",
+            "* Classe : ${1:class} ",
+            "* @author(s) : ${2:author(s)}",
+            "* @date : $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "* License : ${3:license}",
+            "*======================================================================================",
+            "* Supplementray information : ${6:infos}",
+            "$BLOCK_COMMENT_END"
+        ],
+        "description": "Create a header comment in the style of 'Java'"
+    },
+    "ComplementaryInfomration": {
+        "prefix" : "utra-complementary-information",
+        "body" : [
+            "$LINE_COMMENT CONSTANTES - no -",
+            "$LINE_COMMENT ATTRIBUTES - no -",
+            "$LINE_COMMENT CONSTRUCTOR (singleton) - no -",
+            "$LINE_COMMENT ENCAPSULATION METHODS - no -",
+            "$LINE_COMMENT USUAL METHODS - no -",
+            "$LINE_COMMENT SPECIFIC METHODS - no -"
+        ],
+        "description": "Add some comments to add information to your code and help structure it to help with reading."
+    },
+    "Purpose": {
+        "prefix" : "utra-purpose-simple",
+        "body" : [
+            "$LINE_COMMENT",
+            "$LINE_COMMENT Purpose: ${1:Purpose}",
+            "$LINE_COMMENT"
+        ],
+        "description": "Add this before your class or before your method to give some context on its use(s)."
+    },
+    "PurposeBorder": {
+        "prefix" : "utra-purpose-border",
+        "body" : [
+            "$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT",
+            "$LINE_COMMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  $LINE_COMMENT",
+            "$LINE_COMMENT Purpose: ${1:Purpose}        $LINE_COMMENT",
+            "$LINE_COMMENT @param: ${1:YourParam(if any)}        $LINE_COMMENT",
+            "$LINE_COMMENT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  $LINE_COMMENT",
+            "$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT$LINE_COMMENT"
+        ],
+        "description": "Add this before your class or before your method to give some context on its use(s). [⚠️WARNING! RIGHT BORDERS MAY NOT BE POSITIONED CORRECTLY! MANUAL TWEAK MAY BE NEEDED!⚠️]"
+    },
+    "DiscussionComment":{
+        "prefix" : "ultra-discussion",
+        "body" : [
+            "$LINE_COMMENT ${1:name/username}, $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+            "$LINE_COMMENT ${2:discuss}"
+        ],
+        "description": "Add a 'discuss' comment to talk with other coders about the code below this comment."
+    },
+
+    //========================================================================================================================
+
+    //Some quick comments snippets to add little inforamtion (splitter, date, etc.)
+    //These aren't necessary for other language as the text is auto generated and doesn't need to be translated!
+    "QuickDate":{
+        "prefix": "ultra-QuickDate",
+        "body": "$LINE_COMMENT $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND $CURRENT_DAY_NAME_SHORT $CURRENT_DATE $CURRENT_MONTH_NAME_SHORT $CURRENT_YEAR",
+        "description": "Add quickly the current date format:[HH:MM:s DD(including number) MM YYYY]"
+    },
+    "Random":{
+        "prefix": "ultra-RandomNumber",
+        "body": "$LINE_COMMENT $RANDOM $RANDOM_HEX",
+        "description": "Add a random number base-10 and a random base-16"
+    },
+    "Splitter":{
+        "prefix": "ultra-splitter",
+        "body": "$BLOCK_COMMENT_START =================================================================================================== BLOCK_COMMENT_END",
+        "description": "Add a small splitter made with eguals (=) car"
+    },
+
+    //========================================================================================================================
+    
+    //Easter egg! NICE! Vive la Stonks Life Inc.
+    "StonksLifeIncTrademark" : {
+        "prefix" : "sli-trademark",
+        "body" : [
+           "$LINE_COMMENT © Stonks Life Inc.™ $CURRENT_YEAR"
+        ],
+        "description" : "Put a Stonks Life Inc. trademark as art comment.",
+    }
+    
+}
