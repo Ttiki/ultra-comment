@@ -15,7 +15,7 @@ Add boilerplate code when you start a new file to store informations (such as th
 
 This extension is available for the following text editor / IDE :
 - [x] Visual Studio Code
-- [x] Atom
+- [] Atom (Newer versions aren't supported for the moment.)
 
 ## <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="24px" /> Studio Code
 
