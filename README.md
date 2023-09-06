@@ -1,9 +1,8 @@
-[![MIT Licence](https://img.shields.io/github/license/ttiki/header-comment)](https://github.com/Ttiki/header-comment/blob/master/LICENSE.md)
-[![Latest version](https://img.shields.io/github/v/tag/Ttiki/header-comment)](https://github.com/Ttiki/header-comment/releases)
-[![Downloads](https://img.shields.io/github/downloads/Ttiki/header-comment/total)](https://github.com/Ttiki/header-comment/releases)
-[![Open Issue](https://img.shields.io/github/issues-raw/Ttiki/header-comment)](https://github.com/Ttiki/header-comment/issues)
-[![Open PR](https://img.shields.io/github/issues-pr-raw/Ttiki/header-comment)](https://github.com/Ttiki/header-comment/pulls)
-[![saythanks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/Ttiki)
+[![GitHub](https://img.shields.io/github/license/Ttiki/ultra-comment)](https://github.com/Ttiki/ultra-comment/blob/master/LICENCE.md)
+[![Latest version](https://img.shields.io/github/v/tag/Ttiki/ultra-comment)](https://github.com/Ttiki/ultra-comment/releases)
+[![Downloads](https://img.shields.io/github/downloads/Ttiki/ultra-comment/total)](https://github.com/Ttiki/ultra-comment/releases)
+[![Open Issue](https://img.shields.io/github/issues-raw/Ttiki/ultra-comment)](https://github.com/Ttiki/ultra-comment/issues)
+[![Open PR](https://img.shields.io/github/issues-pr-raw/Ttiki/ultra-comment)](https://github.com/Ttiki/ultra-comment/pulls)
 [![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=Ttiki)][SPONSOR]
 # Header comments
 
